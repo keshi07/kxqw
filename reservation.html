@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation - AZoom Car Rental</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Reserve Your Electric Car</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="pickupAndReturn.html">Pick-Up & Return</a></li>
+                <li><a href="inspection.html">Inspection</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="reservation">
+            <h2>Car Reservation Form</h2>
+            <form id="reservationForm">
+                <label for="rentalPeriod">Rental Period:</label>
+                <select id="rentalPeriod" name="rentalPeriod" required>
+                    <option value="daily">Daily</option>
+                    <option value="weekly">Weekly</option>
+                    <option value="monthly">Monthly</option>
+                </select>
+
+                <label for="carModel">Car Model:</label>
+                <select id="carModel" name="carModel" required>
+                    <option value="model1">Model 1</option>
+                    <option value="model2">Model 2</option>
+                    <option value="model3">Model 3</option>
+                </select>
+
+                <label for="creditCard">Credit Card Number:</label>
+                <input type="text" id="creditCard" name="creditCard" placeholder="Enter your 16-digit credit card number" required>
+
+                <button type="submit">Reserve Now</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 AZoom Car Rental. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
