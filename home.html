@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AZoom Car Rental</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to AZoom Car Rental</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#reservation">Reservation</a></li>
+                <li><a href="#pickup">Pick-Up & Return</a></li>
+                <li><a href="#inspection">Inspection</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>About AZoom Car Rental</h2>
+            <p>AZoom Car Rental specializes in providing electric cars for environmentally conscious customers. Rent your next car with us and drive green!</p>
+        </section>
+
+        <section id="reservation">
+            <h2>Car Reservation</h2>
+            <form id="reservationForm">
+                <label for="rentalPeriod">Rental Period:</label>
+                <select id="rentalPeriod" name="rentalPeriod">
+                    <option value="daily">Daily</option>
+                    <option value="weekly">Weekly</option>
+                    <option value="monthly">Monthly</option>
+                </select>
+
+                <label for="carModel">Car Model:</label>
+                <select id="carModel" name="carModel">
+                    <option value="model1">Model 1</option>
+                    <option value="model2">Model 2</option>
+                    <option value="model3">Model 3</option>
+                </select>
+
+                <label for="creditCard">Credit Card Number:</label>
+                <input type="text" id="creditCard" name="creditCard" required>
+
+                <button type="submit">Reserve Now</button>
+            </form>
+        </section>
+
+        <section id="pickup">
+            <h2>Pick-Up & Return</h2>
+            <p>We have two convenient branches for pick-up and return:</p>
+            <ul>
+                <li>Branch 1: Downtown Car Park</li>
+                <li>Branch 2: Uptown Car Park</li>
+            </ul>
+        </section>
+
+        <section id="inspection">
+            <h2>Inspection & Payment</h2>
+            <p>After returning your car, our employees will inspect it for any damages. The final bill will include the rental cost and any damage charges.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: support@azoomcarrental.com</p>
+            <p>Phone: +123 456 7890</p>
+            <p>Address: Downtown & Uptown Locations</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 AZoom Car Rental. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
